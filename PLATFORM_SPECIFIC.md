@@ -46,6 +46,7 @@ Build directory for release is `lmc/release`.
      |-src
 
 The custom build script needs executable permission. Run the following command:
+
 `chmod 755 ./scripts/buildx11`
 
 The custom build step needs the following parameters:
