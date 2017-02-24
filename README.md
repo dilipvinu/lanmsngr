@@ -4,6 +4,8 @@ LAN Messenger is a free and open source cross-platform instant messaging applica
 
 The platforms supported currently are Windows, Mac and Linux.
 
+[![SourceForge](https://img.shields.io/sourceforge/dt/lanmsngr.svg)]()
+
 How to compile LAN Messenger
 ============================
 
