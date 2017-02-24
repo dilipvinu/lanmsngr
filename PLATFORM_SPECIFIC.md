@@ -85,7 +85,7 @@ For building the installer, run the bash script [`setup`](lmc/setup/x11/setup) i
 [`package/DEBIAN`](lmc/setup/x11/package/DEBIAN) have executable permission. The 
 file [`control`](lmc/setup/x11/package/DEBIAN/control) in the same folder 
 should be edited to reflect the proper version and installed size (in KB) of the 
-application. The scripts [`lmc.sh`](lmc/setup/x11/package/usr/lib/lmc/whitelist) 
+application. The scripts [`lmc`](lmc/setup/x11/package/usr/bin/lmc) 
 and [`whitelist`](lmc/setup/x11/package/usr/lib/lmc/whitelist) in 
 [`package/usr/bin`](lmc/setup/x11/package/usr/bin) must also have executable permission. 
 All files and folder inside package folder must be owned by root user.
