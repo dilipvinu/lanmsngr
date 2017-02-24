@@ -1,7 +1,13 @@
+LAN Messenger
+=============
+LAN Messenger is a free and open source cross-platform instant messaging application for communication over a local network. It does not require a server. A number of useful features including event notifications, file transfer and message logging are provided.
+
+The platforms supported currently are Windows, Mac and Linux.
+
 How to compile LAN Messenger
 ============================
 
-You need Qt (http://qt.nokia.com/) to compile.
+You need Qt (http://qt.io) to compile.
 I built LAN Messenger using Qt 4.8, so you probably need that or a 
 later version.
 
@@ -23,7 +29,7 @@ on lmcapp and openssl, in addition to the standard Qt libraries.
 
 The code is identical for all platforms, but there are a few differences
 in the way application is built and run on each platform. Please read
-the platform specific notes to know more.
+the [platform specific notes](PLATFORM_SPECIFIC.md) to know more.
 
 Note: I used Qt Creator IDE with gcc compiler on all platforms. If you 
 are using any other IDE and/or compiler and run into any issue, I can 
@@ -83,7 +89,7 @@ QTDIR that should contain the path where Qt libraries are installed. More
 specifically, it should point to the parent folder of the bin and lib folders
 where Qt binaries reside. Eg: C:\Qt\4.8.0 on Windows.
 
-Refer PLATFORM_SPECIFIC.TXT for additional details about setting up the build
+Refer [PLATFORM_SPECIFIC.md](PLATFORM_SPECIFIC.md) for additional details about setting up the build
 environment on respective platforms.
 
 
